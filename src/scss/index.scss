@@ -1,0 +1,35 @@
+// custom style set here
+
+#root {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.sidebar {
+  height: 100vh !important;
+  text-align: left;
+}
+
+.responsive {
+  width: 50%;
+
+  .form-responsive {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  .responsive {
+    width: 100%;
+
+    .form-responsive {
+      display: block;
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .responsive {
+    width: 80%;
+  }
+}
