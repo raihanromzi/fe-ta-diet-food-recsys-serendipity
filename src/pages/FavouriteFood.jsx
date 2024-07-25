@@ -72,7 +72,7 @@ function FavouriteFood() {
           return prev;
         }
       });
-    }, 300);
+    }, 400);
 
     try {
       const response = await axios.post(
