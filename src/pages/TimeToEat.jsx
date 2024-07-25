@@ -293,11 +293,16 @@ function TimeToEat() {
               </Dialog.Description>
               <Dialog.Close asChild>
                 <Button
-                  variant='outline'
-                  className='mt-4'
+                  variant='default'
+                  className='mt-4 mr-2'
                   onClick={handleResetAndBack}
                 >
                   Go to Onboarding
+                </Button>
+              </Dialog.Close>
+              <Dialog.Close asChild>
+                <Button variant='outline' className='mt-4'>
+                  Close
                 </Button>
               </Dialog.Close>
             </div>
